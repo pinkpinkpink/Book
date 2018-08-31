@@ -1,0 +1,60 @@
+# Brog
+
+- BrogMaster
+
+# Kubernetes
+
+- etcd
+
+- 微服务Pod 
+    - 基本单位
+    nginx pod
+    >
+    “apiVersion: v1
+    kind: Pod
+    metadata:
+      name: nginx
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+    ”
+    
+    摘录来自: Pengfei Ni. “Kubernetes Handbook。” iBooks. 
+    
+
+- Volume
+
+>
+“apiVersion: v1
+kind: Pod
+metadata:
+  name: redis
+spec:
+  containers:
+  - name: redis
+    image: redis
+    volumeMounts:
+    - name: redis-storage”
+     mountPath: /data/redis
+      volumes:
+      - name: redis-storage
+        emptyDir: {}”
+    
+    - Deloyment 扩容
+    
+    - StatefulSet 状态服务
+    
+    zookeeper.yaml
+    
+    >
+    kuberctl create -f zookeeper.yaml
+    
+    
+    - Job Controller
+    
+    
