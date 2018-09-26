@@ -1,0 +1,8 @@
+String 
+串值用单引号括起来 Tsing = 'TSING'
+
+空格串''' 空串 
+
+串的堆分配存储 malloc() free()
+
+串的模式匹配算法
