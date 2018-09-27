@@ -7,10 +7,11 @@
 #define HString
 #define LinkList
 #define Status
+
 typedef struct{
     char * item[];       //字符串数组
     int last;           //词表的长度
-}WorldListType;       //词表类型(顺序表)
+}WordListType;       //词表类型(顺序表)
 
 typedef int ElemType;   //链表数据类型为整形
 
@@ -27,7 +28,7 @@ typedef struct{
 //主要变量
 
 char * buf;         //书目缓冲区
-WorldListType wlType;
+WordListType wlType;
 
 
 //基本操作
@@ -38,16 +39,36 @@ void InitIndexList(IndexListType indexlist);
 void Getline(FILE f);
 //从文件f读入书目信息到缓冲区buffer
 
-void ExtractKeyWorld(ElemType &bno);
+void ExtractKeyWord(ElemType &bno);
 
 void PutText(FILE g,IndexListType indexlist);
 //生成索引表indexlist输出到文件g
 
-void GetWorld(int i,HString wd);
+void GetWord(int i,HString &wd){
+    p = *(wdlist.item + i);
+    //取表中的第i个字符串
+    StrAssign(wd,p);
+    //生成关键字的字符串
 
-void InsertNewKey(IndexListType &indexlist,int i,HString wd);
+}
 
-void InsertNewBook(IndexListType &indexlist,int i,int bno);
+void InsertNewKey(int i,StrType wd){
+    for(j = indexlist.last -1; j >= i; --j){
+        indexlist.item[j+1] == index.item[j];
+        StrCopy(indexlist.item[i].key,wd);          //串赋值
+        Initlist(Indexlist.item[i].bnolist);        //初始化书号索引表
+        ++ idxlist.last;
+
+    }
+
+};
+
+void InsertNewBook(IndexListType &indexlist,int i,int bno){
+    if(!MakeNode(p,bno)) rerurn OVERFLOW;
+    Appand(indexlist.item[i].bnolist,p);
+    //插入新的书号索引
+    return OK；
+};
 
 void main(){
     if(f = OpenFile("BookInfo.txt","r")){
@@ -56,7 +77,7 @@ void main(){
             //初始化索引表
             while(!feof(f)){
                 Getline(f);
-                ExtractKeyWorld(bno);
+                ExtractKeyWord(bno);
 
             }
             PutText(g,indexlist);
