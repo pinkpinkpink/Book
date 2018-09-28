@@ -58,3 +58,30 @@ malloc() free()
  }ADT Array;
 
 - 广义表的存储结构 Page109
+
+- 树和二叉树 Page118
+
+ADT Tree{
+    数据对象：
+    数据关系：
+    基本操作：
+    InitTree(&T);
+    DestroyTree(&T);
+    CreateTree(&T);
+    ClearTree(&T);
+    RootTree(&T);
+    ValueTree(&T);
+    Parent(T,cur_e);
+    InsertChild(&T,&p,i,c);
+    DeleteChild(&T,&p,i);
+
+}ADT Tree
+
+树的定义是递归的定义
+
+二叉树 
+ADT BinaryTree{
+    initBinTree(
+        
+    );
+}ADT BinaryTree
