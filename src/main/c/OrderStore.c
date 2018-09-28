@@ -33,7 +33,10 @@ Status InitArray(Array &A,int dim,...){
         A.bounds[i] = va_arg(ap,int);
         if(A.bounds[i]<0) return UNDEREDFLOW;
         elemtotal * = A.bounds[i];
-
+    }
+    va_end(ap,dim);
+    for(){
+        
     }
 
 }
