@@ -1,4 +1,7 @@
-package src.main.java.org.wyf.order;
+package org.wyf.order;
+
+import static java.util.Arrays.sort;
+
 /**
  * 从左或者从右开始排序
  */
@@ -7,7 +10,7 @@ public class FastOrder{
     private  String  num;
     private  String right;
     private String left;
-    
+
     /**
      * 向左排序数字一次增大
      */
@@ -17,8 +20,8 @@ public class FastOrder{
          int start = 1;
          int end = a.length -1;
          sort(a,start,end);
-         for(i=0;i<a.length;i++){
-             system.out.println(a[i]);
+         for(int i=0;i<a.length;i++){
+             System.out.println(a[i]);
 
          }
 
