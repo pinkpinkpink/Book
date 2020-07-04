@@ -1,0 +1,126 @@
+- symbolicism logicism
+
+    >
+- connectionism 
+    >仿生学：人脑模型
+- 行为主义
+    >控制论
+
+1. 问题求解
+
+2. 逻辑推理和证明
+
+3. 自然语言理解
+
+4. 自动程序设计
+
+5. 专家系统
+
+6. 机器学习
+
+7. 神经网络
+
+8. 机器人学
+
+9. 机器视觉
+
+10. 智能控制
+
+11. 智能检索
+
+12. 智能调度与指挥
+
+13.
+
+2.4 语义网络法
+2.5 框架表示
+2.6 script表示：场景和推理
+2.7 过程表示procedure
+3 搜索推理技术
+是求解的过程
+3.1 图搜索策略
+3.2 盲目搜索
+（1）宽度（接近起始节点）\深度优先搜索（最新的最深的）
+（2）等代价搜索
+3.3 启发式搜索
+（1）有序搜索是最好优先搜索
+（2）
+3.4 resolution principle 
+消解反演
+3.5 规则演绎
+forward chaining and backward chaining
+4.2 神经计算
+似脑机器：并行处理、非线性映射、通过训练进行学习、适应和集成、硬件实现
+神经元及其特性：
+算法：有师、无师、强化学习
+模型：自适应谐振-根据参数对输入数据进行分类的网络
+双向联想：具有学习能力
+反向传播：迭代梯度算法、
+认知机、感知器
+
+(4)基于神经网络的知识表示
+4.3 模糊计算
+（1）模糊逻辑推理
+神经计算、模糊计算、进化计算、人工生命是计算智能的四个主要研究领域
+5 人工生命
+evolutionary computation
+genetic algorithm：模仿生物遗传学和自然选择机制，是数学仿真，编码与解码
+selection、crossover、mutation
+\evolution strategy：
+\evolutionary programming ：evolutionary palnning
+\genetic programming
+
+5.4 人工生命
+人工脑
+计算机病毒computer virus
+计算机进程
+细胞自动机
+人工核甘酸
+6.专家系统
+expert system for interpretation
+expert system for prediction
+expert system for diagnosis
+expert system  for design
+expert system for planning
+expert system for monitoring
+expert system for control
+expert system for debugging
+expert system for instruction
+接口，界面，系统与用户对话。
+黑板是数据库记录系统推理的控制信息、中间假设、中间结果
+知识库与当前问题相关的数据信息和推理要用到的知识和领域，包括事实、可行操作、规划
+解释器包括解释结论的正确性和系统输出其他候选解的原因
+
+专家系统的构建
+（1）问题知识化：问题的实质，解决的任务、如何定义、
+（2）知识概念化：关键概念及其关系
+（3）概念形式化：确定组织知识的数据结构形式
+（4）形式规则化：编制规则、
+基于规则的专家系统
+工作存储器，建立人的短期存储模型
+推理机：
+基于框架的专家系统
+面向目标的编程和基于框架设计
+基于模型
+基于逻辑的心理模型
+神经元网络模型
+定性物理模型
+可视知识模型
+
+
+新型
+1.并行与分布处理
+2.多专家系统协同工作
+3.高级语言和知识描述
+4.具有自学习功能
+6.自纠错和自我完善能力
+7.先进的智能人机接口
+驱动方式：数据、控制、需求、事件
+协同式专家
+专家系统设计
+7 机器学习定义和发展历史
+学习能力
+machine learning
+数据挖掘和知识发现
+
+
