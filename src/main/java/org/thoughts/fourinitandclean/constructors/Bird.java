@@ -7,5 +7,6 @@ package org.thoughts.fourinitandclean.constructors;
  * @create 2020-07-06 12:54 下午
  */
 public class Bird {
+    int i;
 
 }

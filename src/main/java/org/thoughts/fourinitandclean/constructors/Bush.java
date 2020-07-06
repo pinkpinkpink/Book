@@ -7,5 +7,11 @@ package org.thoughts.fourinitandclean.constructors;
  * @create 2020-07-06 12:56 下午
  */
 public class Bush {
+    Bush(int i){
+
+    }
+    Bush(double d){
+
+    }
 
 }
