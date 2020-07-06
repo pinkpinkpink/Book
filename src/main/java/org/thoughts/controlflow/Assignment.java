@@ -1,4 +1,4 @@
-package src.main.java.org.thoughts.controlflow;
+package org.thoughts.controlflow;
 
 /**
  * 描述:
