@@ -1,4 +1,4 @@
-package org.onjava8.teninterface;
+package org.onjava8.collection12;
 
 import org.onjava8.collection12.Apple;
 

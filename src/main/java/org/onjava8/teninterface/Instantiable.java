@@ -11,6 +11,9 @@ import java.util.HashMap;
  * @create 2020-07-21 8:34 下午
  */
 public abstract class Instantiable extends Unistantiable {
+    /**
+     *
+     */
     @Override
     void f() {
 
