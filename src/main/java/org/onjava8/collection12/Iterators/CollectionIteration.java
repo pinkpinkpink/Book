@@ -14,12 +14,12 @@ import java.util.TreeSet;
 public class CollectionIteration {
     public static void display(Iterable<Pet> it){
         while(){
-            Pet pet = it.next();
+            Pet pet = it.next;
         }
     }
 
     public static void main(String[] args) {
         HashSet<Pet> pets = new HashSet<>();
-        TreeSet<Pet> pets1= new TreeSet<>()
+        TreeSet<Pet> pets1= new TreeSet<>();
     }
 }

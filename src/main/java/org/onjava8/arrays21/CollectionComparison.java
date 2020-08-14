@@ -1,5 +1,7 @@
 package org.onjava8.arrays21;
 
+import static org.onjava8.teninterface.Operations.show;
+
 /**
  * 描述:
  *

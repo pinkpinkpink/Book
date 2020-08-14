@@ -1,5 +1,7 @@
 package org.onjava8.teninterface;
 
+import org.onjava8.arrays21.BerylliumSphere;
+
 /**
  * 描述:
  *
@@ -14,7 +16,7 @@ public interface Operations {
 
         }
     }
-    static void show(String msg){
+    static void show(BerylliumSphere[] msg){
 
     }
 

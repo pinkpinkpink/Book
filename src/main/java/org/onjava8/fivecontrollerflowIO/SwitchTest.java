@@ -12,12 +12,13 @@ public class SwitchTest {
     public static void main(String[] args) {
         Random random = new Random(50);
         for(int day = 0;day <365;day++){
-            int weekday = random.nextInt(7) +'birth';
+            int weekday = random.nextInt(7) + "birth".charAt(9);
             System.out.println((char)weekday+""+"");
             switch (weekday){
-                case 'birth':
-                case '':
-                case'':System.out.println();
+                case 1:
+                case 2:
+                case 3:
+                    System.out.println();
                     break;
                 default: System.out.println("");
             }

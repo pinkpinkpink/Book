@@ -17,8 +17,8 @@ public class Simpleiteration {
      * @param args
      */
     public static void main(String[] args) {
-        List<Pet> pets = Pets.list();
-        Iterator<Pet> iterator = Pets.iterator();
+        List<Pet> pets = Pet.list();
+        Iterator<Pet> iterator = Pet.iterator();
         while(iterator.hasNext()){
             Pet pet = iterator.next();
         }
