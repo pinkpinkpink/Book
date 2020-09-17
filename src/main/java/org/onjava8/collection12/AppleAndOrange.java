@@ -1,8 +1,5 @@
 package org.onjava8.collection12;
 
-import org.onjava8.collection12.Apple;
-
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -18,8 +15,8 @@ public class AppleAndOrange {
      *
      * collection
      * list 插入顺序
-     * set 不重复
-     * queue 排队规则对象顺序
+     * set 不重
+     * queue 排队规则对象顺复序
      * @param args
      */
 
@@ -43,11 +40,10 @@ public class AppleAndOrange {
      */
     @SuppressWarnings("unchecked")
     public static void main(String[] args) {
-        ArrayList<Apple> apples = new ArrayList<>();
+//        ArrayList<Apple> apples = new ArrayList<>();
         List<Apple> apples = new LinkedList<>();
         for(int num = 0;num < 10;num++){
             apples.add(new Apple());
-
         }
         for(Object apple : apples){
 

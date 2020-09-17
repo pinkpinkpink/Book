@@ -19,7 +19,6 @@ public class AddingGroups {
     static Map fill(Map<String,String> map){
         map.put("","");
         return map;
-
     }
     public static void main(String[] args) {
         Collection<Integer> collection = new ArrayList<>(Arrays.asList(1,2,34));
@@ -28,15 +27,10 @@ public class AddingGroups {
         Collections.addAll(collection,moreInts);
         List<Integer> list = Arrays.asList(14,15,26,23);
         list.set(1,99);
-
-
         /**
          *
          */
         List<Snow> snow= Arrays.asList(new Powder());
-
-
-
 
     }
 }

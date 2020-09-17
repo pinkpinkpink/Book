@@ -23,6 +23,4 @@ public class StaticFun {
 
     }
     StaticFun staticFun = new StaticFun();
-    StaticFun.in
-
 }

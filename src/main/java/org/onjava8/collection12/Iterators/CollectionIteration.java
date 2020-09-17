@@ -1,10 +1,8 @@
 package org.onjava8.collection12.Iterators;
-
 import org.onjava8.collection12.list.Pet;
 
 import java.util.HashSet;
 import java.util.TreeSet;
-
 /**
  * 描述:
  *
@@ -17,7 +15,6 @@ public class CollectionIteration {
             Pet pet = it.next;
         }
     }
-
     public static void main(String[] args) {
         HashSet<Pet> pets = new HashSet<>();
         TreeSet<Pet> pets1= new TreeSet<>();

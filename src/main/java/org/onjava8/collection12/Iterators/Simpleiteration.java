@@ -23,7 +23,6 @@ public class Simpleiteration {
             Pet pet = iterator.next();
         }
         for(Pet p : pets){
-
         }
         iterator.next();
         iterator.remove();
