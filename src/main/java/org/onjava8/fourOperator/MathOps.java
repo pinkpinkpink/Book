@@ -13,12 +13,9 @@ public class MathOps {
         Random random = new Random(57);
         int i,j,k;
         j = random.nextInt(100) + 1;
-
         System.out.println(""+j);
         k = random.nextInt(100) +1;
         i = j+k;
-
-
         float u,v,w;
         v = random.nextFloat();
         w = random.nextFloat();
@@ -28,7 +25,5 @@ public class MathOps {
         u *= v;
         u /= v;
         System.out.println(""+u);
-
     }
-
 }

@@ -17,7 +17,6 @@ public class Literals {
         long n2 = 200L;
         byte bb = (byte)0b0000101;
         System.out.println(""+Integer.toBinaryString(bb));
-
         float f1 = 1;
         double d1 = 1d;
 

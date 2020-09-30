@@ -14,7 +14,5 @@ public class Overflow {
         System.out.println(""+bigger);
     }
 
-
-
     // TODO《Thinking in C》
 }

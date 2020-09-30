@@ -15,7 +15,6 @@ public class CollectionComparison {
         for(int i = 0;i < 5;i++){
             spheres[i] = new BerylliumSphere();
             show(spheres);
-
         }
     }
 }

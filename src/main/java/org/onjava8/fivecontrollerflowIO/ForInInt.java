@@ -1,6 +1,6 @@
 package org.onjava8.fivecontrollerflowIO;
 
-import static onjava.Range.*;
+import static org.onjava8.seven.Range.range;
 
 /**
  * 描述:

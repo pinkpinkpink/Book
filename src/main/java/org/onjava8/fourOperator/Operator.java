@@ -24,7 +24,6 @@ public class Operator {
      * +
      * += ? 自增
      */
-
     public static void main(String[] args) {
         Tank t1 = new Tank();
         Tank t2 = new Tank();

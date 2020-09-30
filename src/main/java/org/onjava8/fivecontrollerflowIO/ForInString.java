@@ -11,7 +11,8 @@ public class ForInString {
         /**
          * charArray
          */
-        for(char fish:"".toCharArray())
+        for(char fish:"".toCharArray()) {
             System.out.println(fish+"");
+        }
     }
 }

@@ -11,13 +11,22 @@ public class RandomBounds {
         new TimeAbort(3);
         switch (args.length == 0? "" : args[0]){
             case "lower":
-                while (Math.random() != 0.0);
+                while (Math.random() != 0.0) {
+                    ;
+                }
                 System.out.println("");
             case "upper":
-                while(Math.random() != 0.0);
+                while(Math.random() != 0.0) {
+                    ;
+                }
                 break;
             default:
                 System.exit(1);
+        }
+    }
+
+    private static class TimeAbort {
+        public TimeAbort(int i) {
         }
     }
 }
